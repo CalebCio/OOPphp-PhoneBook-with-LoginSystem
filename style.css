@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #e6e1e1;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+.header-right button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-right a {
+    background-color: #e6e1e1;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.background {
+    background-color: red;
+    max-width: 100%;
+    height: 200px;
+    background-image: url(images/pbBac2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -10%;
+}
+
+.index-login .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.index-login .wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-login .wrapper form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #e6e1e1;
+}
+
+.index-login .wrapper button {
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+}
+
+.index-login .wrapper .index-login-signup {
+    background-color: #4F7942;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.index-login .wrapper .index-login-signup h4,p {
+    color: whitesmoke;
+    padding: 5px;
+}
+
+
+
+.index-login .wrapper .index-login-login h4 {
+    color: black;
+    padding: 5px;
+}
+
+.index-login .wrapper .index-login-login p {
+    color: black;
+}
+
+
+.Phone {
+    display: flex;
+    height: 607px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Phone .phonebook-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #4F7942;
+    width: 800px;
+    height: 420px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.phonebook-content h2 {
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.phonebook-content .phonebook-panel {
+    background-color: #e6e1e1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.phonebook-content .phonebook-panel a {
+    text-decoration: none;
+    color: #4F7942;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.phonebook-content .phonebook-panel a:hover {
+    color: black;
+}
+
+.phonebook-content .phonebook-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.phonebook-content .phonebook-form .form-header h3 {
+    padding: 10px;
+    color: #e6e1e1;
+}
+
+.phonebook-content .phonebook-form .form-header {
+    margin-left: 230px;
+}
+
+.phonebook-content .phonebook-form form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 20px;
+    width: 50%;
+}
+
+.phonebook-content .phonebook-form form h4 {
+    color: #e6e1e1;
+}
+
+.phonebook-content .phonebook-form form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4F7942;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.phonebook-content .phonebook-form form button:hover {
+    color:black;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+    background-color: #4F7942;
+    border-radius: 10px;
+}
+
+.table .table-content {
+    background-color: #e6e1e1;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.table .table-content form {
+    margin: 5px;
+}
+
+.table .table-heads {
+    display: flex;
+    flex-direction: row;
+}
+
+.table .table-heads a {
+    text-decoration: none;
+    margin-left: 300px;
+    margin-top: 15px;
+    font-size: large;
+    color: white;
+}
+
+.table .table-heads a:hover {
+    font-weight: 700;
+}
+
+.table h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    border-collapse: collapse;
+}
